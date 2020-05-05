@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.wrapper {
+    /* no idea */
+}
+
+header,
+footer {
+    width: 900px;
+    text-align: center;
+}
+
+.navigation {
+    width: 510px;
+    font-family: "playfairdisplay regular";
+    font-size: 14px;
+    color: #626262;
+}
+
+.list-items {
+    display: inline-block;
+    font-family: "playfairdisplay regular";
+    font-size: 14px;
+    color: #626262;
+}
+
+.parts {
+    display: inline-block;
+    width: 420px;
+}
+
+.images {
+    /* add something to align with text */
+}
+
+.headings {
+    font-family: "playfairdisplay regular";
+    font-size: 30px;
+    color: #626262;
+}
+
+.subtle {
+    font-family: "ubuntu light";
+    font-size: 14px;
+    color: #b4ad9e;
+}
+.textblocks {
+    font-family: "playfairdisplay regular";
+    font-size: 14px;
+    /* add the font height */
+    color: rgb(98, 98, 98);
+}
+
+button {
+    font-family: "playfairdisplay regular";
+    font-size: 20px;
+    text-align: center;
+}
