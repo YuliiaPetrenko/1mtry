@@ -16,16 +16,19 @@ footer {
 
 .navigation {
     width: 510px;
-    font-family: "playfairdisplay regular";
+    font-family: "playfair display";
     font-size: 14px;
     color: #626262;
 }
 
 .list-items {
     display: inline-block;
-    font-family: "playfairdisplay regular";
+    font-family: "playfair display";
     font-size: 14px;
     color: #626262;
+}
+.change_color:hover {
+    color: #03a9f4;
 }
 
 .parts {
@@ -38,13 +41,14 @@ footer {
 }
 
 .headings {
-    font-family: "playfairdisplay regular";
+    font-family: "playfair display";
     font-size: 30px;
+    font-weight: lighter;
     color: #626262;
 }
 
 .subtle {
-    font-family: "ubuntu light";
+    font-family: "ubuntu";
     font-size: 14px;
     color: #b4ad9e;
 }
@@ -56,7 +60,8 @@ footer {
 }
 
 button {
-    font-family: "playfairdisplay regular";
+    font-family: "playfair display";
     font-size: 20px;
     text-align: center;
+    color: rgb(98, 98, 98);
 }
