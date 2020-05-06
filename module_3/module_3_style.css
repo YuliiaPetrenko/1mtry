@@ -2,23 +2,28 @@
     margin: 0;
     padding: 0;
     font-size: 100%;
+    box-sizing: border-box;
 }
 
 .wrapper {
-    /* no idea */
+    width: 910px;
+    margin-left: 150px;
+    margin-top: 72px;
 }
 
 header,
 footer {
-    width: 900px;
+    /* width: 900px; */
     text-align: center;
 }
 
 .navigation {
-    width: 510px;
+    /* width: 510px; */
     font-family: "playfair display";
     font-size: 14px;
     color: #626262;
+    margin-bottom: 70px;
+    /* text-decoration: none; */
 }
 
 .list-items {
@@ -26,7 +31,15 @@ footer {
     font-family: "playfair display";
     font-size: 14px;
     color: #626262;
+    padding: 20px;
+    /* text-decoration: "none"; */
 }
+
+a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
 .change_color:hover {
     color: #03a9f4;
 }
@@ -34,9 +47,13 @@ footer {
 .parts {
     display: inline-block;
     width: 420px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    /* padding-left: 29px; */
 }
 
 .images {
+    margin-bottom: 20px;
     /* add something to align with text */
 }
 
@@ -45,21 +62,28 @@ footer {
     font-size: 30px;
     font-weight: lighter;
     color: #626262;
+    margin-bottom: 20px;
 }
 
 .subtle {
     font-family: "ubuntu";
     font-size: 14px;
     color: #b4ad9e;
+    margin-bottom: 20px;
 }
+
 .textblocks {
     font-family: "playfairdisplay regular";
     font-size: 14px;
     /* add the font height */
     color: rgb(98, 98, 98);
+    margin-bottom: 20px;
 }
-
-button {
+.button {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 50px;
     font-family: "playfair display";
     font-size: 20px;
     text-align: center;
