@@ -1,0 +1,72 @@
+body {
+    font-family: "Roboto", "Open+Sans", "arial", sans-serif;
+    color: #515151;
+    font-size: 14px;
+    line-height: 26px;
+    width: 1110px;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    color: #515151;
+    font-stretch: expanded;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.site-navigation a {
+    color: #0f0101;
+    font-stretch: expanded;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "open sans", sans-serif;
+}
+
+.product-list h3 {
+    color: #ffffff;
+
+    font-stretch: expanded;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.product_list_item_title {
+    background-color: #323232;
+}
+.product_list_item_price {
+    background-color: #8c8c8c;
+}
+
+.blog {
+    font-family: "open sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #555252;
+}
+
+.blog_list_item_description {
+    font-size: 14px;
+}
+
+.read_more {
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #4ec6ab;
+    color: white;
+    text-transform: initial;
+}
+.site-navigation li {
+    display: inline-block;
+    float: inline-end;
+}
+.site-logo {
+    float: left;
+}
